@@ -1,9 +1,11 @@
 package DFS;
 
 public class AllSubsets {
+
     void allSubsets(char[] input) {
         allSubsetsHelper(input, 0, new StringBuilder());
     }
+
     void allSubsetsHelper(char[] input, int index, StringBuilder solutionPrefix) {
         if (index == input.length) {
             System.out.println(solutionPrefix);
