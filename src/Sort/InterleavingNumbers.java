@@ -2,8 +2,8 @@ package Sort;
 
 import java.util.Arrays;
 
-public class AlternatingNumbers {
-    void alternatingNumbers(int[] input) {
+public class InterleavingNumbers {
+    void interleavingNumbers(int[] input) {
         if (input == null || input.length <= 1) {
             return;
         }
@@ -38,9 +38,9 @@ public class AlternatingNumbers {
     }
 
     public static void main(String[] args) {
-        AlternatingNumbers solution = new AlternatingNumbers();
+        InterleavingNumbers solution = new InterleavingNumbers();
         int[] input = new int[] {1, -2, -3, -4, 3, -3, -2, 4, 5, -1, -1, -1, -4, -5};
-        solution.alternatingNumbers(input);
+        solution.interleavingNumbers(input);
         System.out.println(Arrays.toString(input));
     }
 }

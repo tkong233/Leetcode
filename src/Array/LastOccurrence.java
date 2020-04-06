@@ -2,7 +2,7 @@ package Array;
 
 import java.util.Arrays;
 
-public class lastOccurrence {
+public class LastOccurrence {
 	public static int lastOccur(int[] array, int target) {
 		if(array == null || array.length == 0) {
 			return -1;
