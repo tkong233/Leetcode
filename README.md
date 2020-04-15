@@ -12,4 +12,6 @@ Working on simple but important DFS questions. Still a bit confused about how re
 
 Finally picked up the practice. Finished Find Coins Combination, another DFS question. Start to understand DFS better. Should keep practicing and review past questions. 
 
-Due to COVID-19, my university is closed and will move to distance learning shortly. It's a pitty that my last semester is ended in this abrupted way. No prom, no senior recital, no good-byes to many close friends. Despite the sentimental circumstance, I need to put together my mood and keep up the hard work, because I'll start job-hunting soon after grad school starts. At least I get to stay with my beloved. Luck in misfortune. 
+## April 14, 2020
+
+Totally forgot about this diary... So I've been making slow yet somewhat consistent progress. Consistency is the gold, but should push myself a bit harder. This quarantine period is actually a gift for practicing leetcode. Should make good use of the time. (Though it's so easy to loose motivation staying at home every day)
