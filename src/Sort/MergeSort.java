@@ -23,6 +23,7 @@ public class MergeSort {
 //    }
 //
 //    int[] merge(int[] leftResult, int[] rightResult) {
+//        // 这里result产生的extra space可以通过一个helper array来优化
 //        int[] result = new int[leftResult.length + rightResult.length];
 //        int leftIndex = 0, rightIndex = 0, resultIndex = 0;
 //        while (leftIndex < leftResult.length && rightIndex < rightResult.length) {
