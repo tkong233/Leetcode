@@ -12,10 +12,15 @@ public class GetHeight {
         System.out.println(h1);
 
     }
+
     public int getHeight(TreeNode root) {
         if (root == null) {
             return 0;
         }
-        return 1 + Math.max(getHeight(root.left), getHeight(root.right));
+
+        int left = getHeight(root.left);
+        int right = getHeight(root.right);
+        int myHeight = 1 + Math.max(left, right);
+        return myHeight;
     }
 }
