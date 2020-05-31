@@ -2,7 +2,7 @@ package Array;
 
 import java.util.Arrays;
 
-public class Array2D {
+public class SearchIn2DArray {
 
 	public static int[] search(int[][] matrix, int target) {
 		int[] result = new int[] { -1, -1 };
