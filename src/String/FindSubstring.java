@@ -1,6 +1,7 @@
 package String;
 
 public class FindSubstring {
+    // method 1: KMP
     // assume s1.length() >= s2.length()
     int findSubstring(String s1, String s2) {
         if (s1 == null || s2 == null || s1.length() < s2.length()
@@ -34,8 +35,45 @@ public class FindSubstring {
         }
     }
 
+    // method 2: naive.
+    // 过去错误1：can't just use two pointers to make a linear scan.
+    // consider input: source = "mississippi" target = "issip"; source = "targtarget" target = "target"
+    // 过去错误2：需要clarify：当有multiple occurrences时，return哪一次？
+    public int strStr(String source, String target) {
+        if (source == null || target == null || source.length() < target.length()) {
+            return -1;
+        }
+
+        if (target == "") {
+            return 0;
+        }
+
+        int result = -1;
+        for (int i = 0; i <= source.length() - target.length(); i++) {
+            if (isSubstring(source, target, i)) {
+                result = i;
+            }
+        }
+
+        return result;
+    }
+
+    boolean isSubstring(String source, String target, int start) {
+        int i = start;
+        int j = 0;
+        while (i < source.length() && j < target.length()) {
+            if (source.charAt(i) != target.charAt(j)) {
+                break;
+            }
+            i++;
+            j++;
+        }
+
+        return j == target.length();
+    }
+
     public static void main(String[] args) {
         FindSubstring solution = new FindSubstring();
-        System.out.println(solution.findSubstring("aaacbdabc", "abc"));
+        System.out.println(solution.strStr("a", ""));
     }
 }
