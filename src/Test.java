@@ -1,11 +1,15 @@
-public class Test {
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
+public class Test {
+    static int count = 0;
     public static void main(String[] args) {
-        int a = 1234;
-        while (a > 0) {
-            int digit = a % 10;
-            System.out.println(digit);
-            a /= 10;
-        }
+        List list = new ArrayList();
+        list.add("hello");
+        list.add(2);
+        System.out.println((list.get(0) instanceof Object));
+
+        System.out.println((list.get(1) instanceof Integer));
     }
 }

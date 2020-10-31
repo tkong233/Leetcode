@@ -1,8 +1,8 @@
-package IntuitInterview;
+package Interviews.Intuit;
 
 import java.util.*;
 
-public class FindCommonCourses {
+public class Aa_FindCommonCourses {
     /*
         输入学生的ID和他上的课程，找到每两个学生上的相同的课程。
 
@@ -85,7 +85,7 @@ public class FindCommonCourses {
         courses.add(course5);
         courses.add(course6);
 
-        FindCommonCourses solution = new FindCommonCourses();
+        Aa_FindCommonCourses solution = new Aa_FindCommonCourses();
         List<String> result = solution.findCommonCourses(Arrays.asList("94", "17"), courses);
 
         for (String s : result) {

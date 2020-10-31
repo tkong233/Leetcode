@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DP;
 
 public class SimpleMaxDifference {
     public static void main(String args[]) {

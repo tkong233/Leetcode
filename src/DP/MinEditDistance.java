@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DP;
 
 public class MinEditDistance {
     int minEditDistance(String one, String two) {

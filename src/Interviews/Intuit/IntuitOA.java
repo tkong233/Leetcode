@@ -1,4 +1,4 @@
-package IntuitInterview;
+package Interviews.Intuit;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

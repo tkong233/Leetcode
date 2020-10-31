@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DP;
 
 public class LargestSumOfSubarray {
     /*
