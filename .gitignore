@@ -1,7 +1,2 @@
 .DS_Store
-.classpath
-.project
-.settings/
-.idea/
-leetcode.iml
 out/
