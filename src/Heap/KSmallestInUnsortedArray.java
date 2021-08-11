@@ -1,9 +1,6 @@
 package Heap;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class KSmallestInUnsortedArray {
     // way 1: use a min heap
@@ -49,10 +46,49 @@ public class KSmallestInUnsortedArray {
         }
         return result;
     }
+
+    class MyInteger implements Comparable<MyInteger> {
+        int value;
+
+        public MyInteger(int value) {
+            this.value = value;
+        }
+
+        @Override
+        public int compareTo(MyInteger other) {
+            if (this.value == other.value) {
+                return 0;
+            }
+            return this.value > other.value ? -1 : 1;
+        }
+    }
+    public int[] kSmallest1(int[] array, int k) {
+        if (array == null || array.length == 0 || k == 0) {
+            return new int[0];
+        }
+        ArrayList<MyInteger> list = new ArrayList<>();
+        for (int i = 0; i < k; i++) {
+            list.add(new MyInteger(array[i]));
+        }
+        PriorityQueue<MyInteger> maxHeap = new PriorityQueue<>(list);
+        for (int i = k; i < array.length; i++) {
+            if (maxHeap.peek().value > array[i]) {
+                maxHeap.poll();
+                maxHeap.offer(new MyInteger(array[i]));
+            }
+        }
+        int[] result = new int[k];
+        for (int i = k - 1; i >= 0; i--) {
+            result[i] = maxHeap.poll().value;
+        }
+        return result;
+    }
+
+
     public static void main(String[] args) {
         int[] input = new int[] {1, 4, 9, 2, 3, 4, 0, 12, 15};
         KSmallestInUnsortedArray solution = new KSmallestInUnsortedArray();
-        int[] result = solution.kSmallest(input, 3);
+        int[] result = solution.kSmallest1(input, 3);
         System.out.println(Arrays.toString(result));
     }
 }

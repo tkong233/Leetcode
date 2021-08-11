@@ -13,7 +13,7 @@ public class ClosestKElements {
         int right = closest + 1;
         int i = 0;
         for (; i < k; i++) {
-            if (left < 0 || right > k - 1) {
+            if (left < 0 || right > array.length - 1) {
                 break;
             }
             if (array[left] <= array[right]) {

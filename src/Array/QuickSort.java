@@ -10,55 +10,56 @@ public class QuickSort {
 	public static void main(String args[]) {
 		int[] array = {1, 3, 4, 2, 5};
 		QuickSort solution = new QuickSort();
-		solution.quickSort(array);
+		solution.solve(array);
 		System.out.println(Arrays.toString(array));
 	}
-	
-	  public int[] quickSort(int[] array) {
-	    if (array == null || array.length == 0) {
-	      return array;
-    }
-	    quickSort(array, 0, array.length - 1);
-	    return array;
+
+	public int[] solve(int[] array) {
+		if (array == null || array.length == 0) {
+			return array;
+		}
+		selectionSort(array, 0, array.length - 1);
+		return array;
 	}
 
-	  private void quickSort(int[] array, int left, int right) {
-	    if (left >= right) {
-	      return;   // has to be void
-	    }
-	    int pivotPos = partition(array, left, right);
+	private void selectionSort(int[] array, int leftBound, int rightBound) {
+		if (leftBound >= rightBound) {
+			return;
+		}
+		int pivotPos = partition(array, leftBound, rightBound);
+		selectionSort(array, leftBound, pivotPos - 1);
+		selectionSort(array, pivotPos + 1, rightBound);
+	}
 
-	    quickSort(array, left, pivotPos - 1);
-	    quickSort(array, pivotPos + 1, right);
-	  }
-	  
-	  // randomly select a pivot in [left, right] and return the correct position of it
-	  private int partition(int[] array, int left, int right) {
-	    int pivotPos = selectPivot(left, right);
-	    int leftBound = left;
-	    int rightBound = right;
-	    while (leftBound <= rightBound) {
-	      if (array[leftBound] < array[pivotPos]) {
-	        leftBound++;
-	      } else if (array[rightBound] >= array[pivotPos]) {
-	        rightBound--;
-	      } else {
-	        swap(array, leftBound, rightBound);
-	        leftBound++;
-	        rightBound--;
-	      }
-	    }
-	    return pivotPos;
-	  }
+	// pick a pivot p randomly
+	// partition the array into two parts so that elements on the left < p, elements on the right > p
+	// return position of p
+	private int partition(int[] array, int leftBound, int rightBound) {
+		int pivotPos = getPivotPos(leftBound, rightBound);
+		int pivot = array[pivotPos];
+		swap(array, pivotPos, rightBound);
+		int left = leftBound;
+		int right = rightBound - 1;
+		while (left <= right) {
+			if (array[left] < pivot) {
+				left++;
+			} else if (array[right] > pivot) {
+				right--;
+			} else {
+				swap(array, left++, right--);
+			}
+		}
+		swap(array, left, rightBound);
+		return left;
+	}
 
-	  private int selectPivot(int left, int right) {
-	    return (int) (Math.random() * (right - left) + left);
-	  }
+	private int getPivotPos(int left, int right) {
+		return left + (int) (Math.random() * (right - left + 1));
+	}
 
-	  private void swap(int[] array, int i, int j) {
-	    int temp = array[i];
-	    array[i] = array[j];
-	    array[j] = temp;
-	  }
-
+	private void swap(int[] array, int a, int b) {
+		int temp = array[a];
+		array[a] = array[b];
+		array[b] = temp;
+	}
 }
