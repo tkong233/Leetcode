@@ -7,13 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="475a28d4-8429-4a15-bf0a-92f3fe3422e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/LevelOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/ReorderLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/maxTickets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/RemovePattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trie/AddAndSearchWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/ClosestKElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/ClosestKElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heap/KSmallestInUnsortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/KSmallestInUnsortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/SpiralOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/SpiralOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +183,20 @@
       <recent name="Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReorderLinkedList">
+  <component name="RunManager" selected="Application.AddAndSearchWord">
+    <configuration name="AddAndSearchWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trie.AddAndSearchWord" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AllSubsets" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DFS.AllSubsets" />
       <module name="leetcode" />
@@ -198,51 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClosestKElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.ClosestKElements" />
+    <configuration name="RemovePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.RemovePattern" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KSmallestInUnsortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.KSmallestInUnsortedArray" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.LevelOrderTraversal" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BinaryTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.QuickSort" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,13 +236,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpiralOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.SpiralOrder" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="maxTickets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.maxTickets" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddAndSearchWord" />
+        <item itemvalue="Application.maxTickets" />
+        <item itemvalue="Application.SpiralOrder" />
+        <item itemvalue="Application.RemovePattern" />
         <item itemvalue="Application.ReorderLinkedList" />
-        <item itemvalue="Application.LevelOrderTraversal" />
-        <item itemvalue="Application.KSmallestInUnsortedArray" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.ClosestKElements" />
       </list>
     </recent_temporary>
   </component>
@@ -629,9 +628,19 @@
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LinkedList/ReorderLinkedList.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="127" />
+          <url>file://$PROJECT_DIR$/src/Recursion/SpiralOrder.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/maxTickets.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Trie/AddAndSearchWord.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DFS/AllSubsets.java</url>
@@ -683,6 +692,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Trie.AddAndSearchWord$TrieNode" memberName="isCompleteWord" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$MostBookedHotelRoom.ic" NAME="MostBookedHotelRoom Coverage Results" MODIFIED="1604114443596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
