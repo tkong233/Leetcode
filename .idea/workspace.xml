@@ -7,12 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="475a28d4-8429-4a15-bf0a-92f3fe3422e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/maxTickets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/LongestIncreasingSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/RemovePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/AddAndSearchWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS/RemoveInvalidParenthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/SpiralOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/SpiralOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +179,7 @@
       <recent name="Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AddAndSearchWord">
+  <component name="RunManager" selected="Application.RemoveInvalidParenthesis">
     <configuration name="AddAndSearchWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trie.AddAndSearchWord" />
       <module name="leetcode" />
@@ -210,12 +206,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemovePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.RemovePattern" />
+    <configuration name="RemoveInvalidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS.RemoveInvalidParenthesis" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String.*" />
+          <option name="PATTERN" value="DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,12 +219,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReorderLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.ReorderLinkedList" />
+    <configuration name="RemovePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.RemovePattern" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,11 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveInvalidParenthesis" />
         <item itemvalue="Application.AddAndSearchWord" />
         <item itemvalue="Application.maxTickets" />
         <item itemvalue="Application.SpiralOrder" />
         <item itemvalue="Application.RemovePattern" />
-        <item itemvalue="Application.ReorderLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -641,6 +637,11 @@
           <url>file://$PROJECT_DIR$/src/Trie/AddAndSearchWord.java</url>
           <line>67</line>
           <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DFS/RemoveInvalidParenthesis.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="133" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DFS/AllSubsets.java</url>
