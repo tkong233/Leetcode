@@ -5,7 +5,7 @@ public class Test {
 
 
     public static void main(String[] args) {
-       String word = "hi";
-       System.out.println(word.matches(".*[a-zA-Z]+.*"));
+       System.out.println(Integer.MIN_VALUE / 2);
+       System.out.println(Integer.MIN_VALUE >> 1);
     }
 }

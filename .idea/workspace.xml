@@ -7,8 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="475a28d4-8429-4a15-bf0a-92f3fe3422e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DFS/RemoveInvalidParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/RandomPickWithWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/LCAWithParent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashMap/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashMap/TopKFrequentNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/KLargest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/maxTickets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/MaxTickets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,20 +186,7 @@
       <recent name="Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveInvalidParenthesis">
-    <configuration name="AddAndSearchWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trie.AddAndSearchWord" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TopKFrequentNumber">
     <configuration name="AllSubsets" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DFS.AllSubsets" />
       <module name="leetcode" />
@@ -206,12 +200,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveInvalidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS.RemoveInvalidParenthesis" />
+    <configuration name="LCAWithParent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.LCAWithParent" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DFS.*" />
+          <option name="PATTERN" value="BinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,12 +213,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemovePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.RemovePattern" />
+    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMap.LRUCache" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String.*" />
+          <option name="PATTERN" value="HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,21 +226,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.SpiralOrder" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="maxTickets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.maxTickets" />
+    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.MergeIntervals" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -258,13 +239,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopKFrequentNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMap.TopKFrequentNumber" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HashMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemoveInvalidParenthesis" />
-        <item itemvalue="Application.AddAndSearchWord" />
-        <item itemvalue="Application.maxTickets" />
-        <item itemvalue="Application.SpiralOrder" />
-        <item itemvalue="Application.RemovePattern" />
+        <item itemvalue="Application.TopKFrequentNumber" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.LRUCache" />
+        <item itemvalue="Application.MergeIntervals" />
+        <item itemvalue="Application.LCAWithParent" />
       </list>
     </recent_temporary>
   </component>
@@ -629,7 +630,7 @@
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Array/maxTickets.java</url>
+          <url>file://$PROJECT_DIR$/src/Array/MaxTickets.java</url>
           <line>32</line>
           <option name="timeStamp" value="130" />
         </line-breakpoint>
@@ -642,6 +643,26 @@
           <url>file://$PROJECT_DIR$/src/DFS/RemoveInvalidParenthesis.java</url>
           <line>55</line>
           <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/RandomPickWithWeight.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinaryTree/LCAWithParent.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/MergeIntervals.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashMap/TopKFrequentNumber.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="137" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DFS/AllSubsets.java</url>
@@ -696,12 +717,16 @@
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Trie.AddAndSearchWord$TrieNode" memberName="isCompleteWord" />
+        <PinnedItemInfo parentTag="HashMap.LRUCache" memberName="keyToNode" />
       </pinned-members>
     </pin-to-top-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$MostBookedHotelRoom.ic" NAME="MostBookedHotelRoom Coverage Results" MODIFIED="1604114443596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Interviews.Google.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Leetcode$LRUCache.ic" NAME="LRUCache Coverage Results" MODIFIED="1629391557160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>HashMap.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/leetcode$KnightShortestPathII__1_.ic" NAME="KnightShortestPathII (1) Coverage Results" MODIFIED="1599109842871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>DP.*</FILTER>

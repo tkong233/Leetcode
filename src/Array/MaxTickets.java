@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class maxTickets {
+public class MaxTickets {
     static int maxTickets(List<Integer> tickets) {
         if (tickets == null || tickets.size() == 0) {
             return 0;
