@@ -7,15 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="475a28d4-8429-4a15-bf0a-92f3fe3422e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/MergeIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/RandomPickWithWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/LCAWithParent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashMap/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashMap/TopKFrequentNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/KLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/AlmostEqualNumbersWithOneSwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/BinaryPatternMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/CanFormTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/ConcatSwaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/CountNumberOfKInRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/CyclicArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/IsLongestContiguousSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/MatrixQueries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/MaxKOccurrences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/NumberSigningSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/PairSumToPowerOfTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/PushAndFall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/ReverseDigitsInPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/RotateAndFall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/RotateMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/SortChessBoardByQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/SortMatrixAndInsertInDiagonal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/ZigZag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/maxTickets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/MaxTickets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +196,7 @@
       <recent name="Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TopKFrequentNumber">
+  <component name="RunManager" selected="Application.PairSumToPowerOfTwo">
     <configuration name="AllSubsets" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DFS.AllSubsets" />
       <module name="leetcode" />
@@ -200,12 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LCAWithParent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.LCAWithParent" />
+    <configuration name="MatrixQueries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeSignal.MatrixQueries" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinaryTree.*" />
+          <option name="PATTERN" value="CodeSignal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,12 +223,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashMap.LRUCache" />
+    <configuration name="MaxKOccurrences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeSignal.MaxKOccurrences" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashMap.*" />
+          <option name="PATTERN" value="CodeSignal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,12 +236,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.MergeIntervals" />
+    <configuration name="NumberSigningSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeSignal.NumberSigningSum" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="CodeSignal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,19 +249,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+    <configuration name="PairSumToPowerOfTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeSignal.PairSumToPowerOfTwo" />
       <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeSignal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopKFrequentNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashMap.TopKFrequentNumber" />
+    <configuration name="SortChessBoardByQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeSignal.SortChessBoardByQuery" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashMap.*" />
+          <option name="PATTERN" value="CodeSignal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TopKFrequentNumber" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.LRUCache" />
-        <item itemvalue="Application.MergeIntervals" />
-        <item itemvalue="Application.LCAWithParent" />
+        <item itemvalue="Application.PairSumToPowerOfTwo" />
+        <item itemvalue="Application.NumberSigningSum" />
+        <item itemvalue="Application.MatrixQueries" />
+        <item itemvalue="Application.SortChessBoardByQuery" />
+        <item itemvalue="Application.MaxKOccurrences" />
       </list>
     </recent_temporary>
   </component>
@@ -663,6 +679,66 @@
           <url>file://$PROJECT_DIR$/src/HashMap/TopKFrequentNumber.java</url>
           <line>26</line>
           <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/PushAndFall.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/CanFormTriangle.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/CanFormTriangle.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/RotateMatrix.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/ZigZag.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/BinaryPatternMatching.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/SortMatrixAndInsertInDiagonal.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/SortMatrixAndInsertInDiagonal.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/MaxKOccurrences.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/SortChessBoardByQuery.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/MatrixQueries.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/NumberSigningSum.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="166" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DFS/AllSubsets.java</url>
