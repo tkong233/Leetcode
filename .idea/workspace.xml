@@ -7,24 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="475a28d4-8429-4a15-bf0a-92f3fe3422e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/AlmostEqualNumbersWithOneSwap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/BinaryPatternMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/CanFormTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/ConcatSwaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/CountNumberOfKInRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/CyclicArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/IsLongestContiguousSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/MatrixQueries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/MaxKOccurrences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/NumberSigningSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/PairSumToPowerOfTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/PushAndFall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/ReverseDigitsInPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/RotateAndFall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/RotateMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/SortChessBoardByQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/SortMatrixAndInsertInDiagonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/ZigZag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/BrokenKeyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/CloseEnoughStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/CoolFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/DiagonalSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/MaxArithmeticPrgressionLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/MaxRevenueForStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/MaxSizeCuttingRibbon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/ShufflePieces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeSignal/TargetOccurrencesInRange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +187,7 @@
       <recent name="Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PairSumToPowerOfTwo">
+  <component name="RunManager" selected="Application.DiagonalSort">
     <configuration name="AllSubsets" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DFS.AllSubsets" />
       <module name="leetcode" />
@@ -210,8 +201,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixQueries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeSignal.MatrixQueries" />
+    <configuration name="BrokenKeyboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeSignal.BrokenKeyboard" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -223,8 +214,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxKOccurrences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeSignal.MaxKOccurrences" />
+    <configuration name="CloseEnoughStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeSignal.CloseEnoughStrings" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -236,8 +227,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberSigningSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeSignal.NumberSigningSum" />
+    <configuration name="DiagonalSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeSignal.DiagonalSort" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -249,8 +240,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairSumToPowerOfTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeSignal.PairSumToPowerOfTwo" />
+    <configuration name="MaxSizeCuttingRibbon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeSignal.MaxSizeCuttingRibbon" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -262,8 +253,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortChessBoardByQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeSignal.SortChessBoardByQuery" />
+    <configuration name="TargetOccurrencesInRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeSignal.TargetOccurrencesInRange" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -277,11 +268,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PairSumToPowerOfTwo" />
-        <item itemvalue="Application.NumberSigningSum" />
-        <item itemvalue="Application.MatrixQueries" />
-        <item itemvalue="Application.SortChessBoardByQuery" />
-        <item itemvalue="Application.MaxKOccurrences" />
+        <item itemvalue="Application.DiagonalSort" />
+        <item itemvalue="Application.TargetOccurrencesInRange" />
+        <item itemvalue="Application.CloseEnoughStrings" />
+        <item itemvalue="Application.MaxSizeCuttingRibbon" />
+        <item itemvalue="Application.BrokenKeyboard" />
       </list>
     </recent_temporary>
   </component>
@@ -739,6 +730,56 @@
           <url>file://$PROJECT_DIR$/src/CodeSignal/NumberSigningSum.java</url>
           <line>16</line>
           <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/PairSumToPowerOfTwo.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/MaxRevenueForStock.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/MaxArithmeticPrgressionLength.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/CoolFeature.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/ShufflePieces.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/ShufflePieces.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/BrokenKeyboard.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/CloseEnoughStrings.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/TargetOccurrencesInRange.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeSignal/DiagonalSort.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="183" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DFS/AllSubsets.java</url>
