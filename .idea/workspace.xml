@@ -7,15 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="475a28d4-8429-4a15-bf0a-92f3fe3422e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/BrokenKeyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/CloseEnoughStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/CoolFeature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/DiagonalSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/MaxArithmeticPrgressionLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/MaxRevenueForStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/MaxSizeCuttingRibbon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/ShufflePieces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeSignal/TargetOccurrencesInRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS/ValidParenthesisII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interviews/Robinhood/BadgeAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trie/BogoGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trie/FindAllWordsWithPrefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +57,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -187,7 +190,7 @@
       <recent name="Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DiagonalSort">
+  <component name="RunManager" selected="Application.ValidParenthesisII">
     <configuration name="AllSubsets" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DFS.AllSubsets" />
       <module name="leetcode" />
@@ -201,25 +204,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrokenKeyboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeSignal.BrokenKeyboard" />
+    <configuration name="BogoGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trie.BogoGame" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CodeSignal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CloseEnoughStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeSignal.CloseEnoughStrings" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeSignal.*" />
+          <option name="PATTERN" value="Trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,12 +230,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSizeCuttingRibbon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeSignal.MaxSizeCuttingRibbon" />
+    <configuration name="FindAllWordsWithPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trie.FindAllWordsWithPrefix" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CodeSignal.*" />
+          <option name="PATTERN" value="Trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,13 +256,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidParenthesisII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS.ValidParenthesisII" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DFS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidParenthesisII" />
+        <item itemvalue="Application.BogoGame" />
+        <item itemvalue="Application.FindAllWordsWithPrefix" />
         <item itemvalue="Application.DiagonalSort" />
         <item itemvalue="Application.TargetOccurrencesInRange" />
-        <item itemvalue="Application.CloseEnoughStrings" />
-        <item itemvalue="Application.MaxSizeCuttingRibbon" />
-        <item itemvalue="Application.BrokenKeyboard" />
       </list>
     </recent_temporary>
   </component>
@@ -780,6 +783,21 @@
           <url>file://$PROJECT_DIR$/src/CodeSignal/DiagonalSort.java</url>
           <line>40</line>
           <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Trie/FindAllWordsWithPrefix.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Trie/BogoGame.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DFS/ValidParenthesisII.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="191" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DFS/AllSubsets.java</url>
