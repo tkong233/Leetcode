@@ -7,11 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="475a28d4-8429-4a15-bf0a-92f3fe3422e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DFS/ValidParenthesisII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interviews/Robinhood/BadgeAccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/BogoGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/FindAllWordsWithPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS/AllPermutationsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS/FactorCombinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS/ShuffleNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interviews/Robinhood/FindMedianCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interviews/Robinhood/ResourcesAccessLog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interviews/Robinhood/BadgeAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interviews/Robinhood/BadgeAccess.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +166,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -190,7 +195,20 @@
       <recent name="Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidParenthesisII">
+  <component name="RunManager" selected="Application.ResourcesAccessLog">
+    <configuration name="AllPermutationsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS.AllPermutationsII" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DFS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AllSubsets" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DFS.AllSubsets" />
       <module name="leetcode" />
@@ -204,12 +222,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BogoGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trie.BogoGame" />
+    <configuration name="FactorCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS.FactorCombinations" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trie.*" />
+          <option name="PATTERN" value="DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,12 +235,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiagonalSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeSignal.DiagonalSort" />
+    <configuration name="FindMedianCourse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interviews.Robinhood.FindMedianCourse" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CodeSignal.*" />
+          <option name="PATTERN" value="Interviews.Robinhood.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,12 +248,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindAllWordsWithPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trie.FindAllWordsWithPrefix" />
+    <configuration name="ResourcesAccessLog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interviews.Robinhood.ResourcesAccessLog" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trie.*" />
+          <option name="PATTERN" value="Interviews.Robinhood.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,21 +261,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TargetOccurrencesInRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeSignal.TargetOccurrencesInRange" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeSignal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidParenthesisII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS.ValidParenthesisII" />
+    <configuration name="ShuffleNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS.ShuffleNumbers" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -271,11 +276,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValidParenthesisII" />
-        <item itemvalue="Application.BogoGame" />
-        <item itemvalue="Application.FindAllWordsWithPrefix" />
-        <item itemvalue="Application.DiagonalSort" />
-        <item itemvalue="Application.TargetOccurrencesInRange" />
+        <item itemvalue="Application.ResourcesAccessLog" />
+        <item itemvalue="Application.FindMedianCourse" />
+        <item itemvalue="Application.ShuffleNumbers" />
+        <item itemvalue="Application.AllPermutationsII" />
+        <item itemvalue="Application.FactorCombinations" />
       </list>
     </recent_temporary>
   </component>
@@ -333,6 +338,7 @@
       <workItem from="1604116824435" duration="4573000" />
       <workItem from="1605215681137" duration="2729000" />
       <workItem from="1607047400891" duration="708000" />
+      <workItem from="1631291937728" duration="26546000" />
     </task>
     <servers />
   </component>
@@ -387,7 +393,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -799,6 +805,21 @@
           <line>31</line>
           <option name="timeStamp" value="191" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DFS/FactorCombinations.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DFS/AllPermutationsII.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Interviews/Robinhood/ResourcesAccessLog.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DFS/AllSubsets.java</url>
           <line>40</line>
@@ -857,11 +878,11 @@
     </pin-to-top-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/leetcode$MostBookedHotelRoom.ic" NAME="MostBookedHotelRoom Coverage Results" MODIFIED="1604114443596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Interviews.Google.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/Leetcode$LRUCache.ic" NAME="LRUCache Coverage Results" MODIFIED="1629391557160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>HashMap.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$MostBookedHotelRoom.ic" NAME="MostBookedHotelRoom Coverage Results" MODIFIED="1604114443596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Interviews.Google.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/leetcode$KnightShortestPathII__1_.ic" NAME="KnightShortestPathII (1) Coverage Results" MODIFIED="1599109842871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>DP.*</FILTER>
