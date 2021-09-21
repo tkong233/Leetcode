@@ -7,14 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="475a28d4-8429-4a15-bf0a-92f3fe3422e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS/AllPermutationsII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS/FactorCombinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS/ShuffleNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interviews/Robinhood/FindMedianCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interviews/Robinhood/ResourcesAccessLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interviews/Databricks/CustomerRevenue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interviews/Databricks/MergeIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interviews/Databricks/MergeIteratorII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interviews/Databricks/StringManipulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interviews/Facebook/MinPushesOfBoxToTargetBFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interviews/Facebook/MinPushesOfBoxToTargetDFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interviews/Google/MinMaxPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interviews/Google/SplitNumberMinDiff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interviews/Stripe/HTTPHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interviews/Stripe/MutualRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interviews/Stripe/ServerRemovalPenalty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interviews/Stripe/TestHTTPHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interviews/Stripe/TestMutualRank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interviews/Robinhood/BadgeAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interviews/Robinhood/BadgeAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,6 +173,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -195,20 +206,7 @@
       <recent name="Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ResourcesAccessLog">
-    <configuration name="AllPermutationsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS.AllPermutationsII" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DFS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HTTPHeader">
     <configuration name="AllSubsets" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DFS.AllSubsets" />
       <module name="leetcode" />
@@ -222,12 +220,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactorCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS.FactorCombinations" />
+    <configuration name="HTTPHeader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interviews.Stripe.HTTPHeader" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DFS.*" />
+          <option name="PATTERN" value="Interviews.Stripe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,12 +233,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMedianCourse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interviews.Robinhood.FindMedianCourse" />
+    <configuration name="ServerRemovalPenalty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interviews.Stripe.ServerRemovalPenalty" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interviews.Robinhood.*" />
+          <option name="PATTERN" value="Interviews.Stripe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,39 +246,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResourcesAccessLog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interviews.Robinhood.ResourcesAccessLog" />
+    <configuration name="TestHTTPHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interviews.Robinhood.*" />
+          <option name="PATTERN" value="Interviews.Stripe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Interviews.Stripe" />
+      <option name="MAIN_CLASS_NAME" value="Interviews.Stripe.TestHTTPHeader" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShuffleNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS.ShuffleNumbers" />
+    <configuration name="TestHTTPHeader.testEmptyHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DFS.*" />
+          <option name="PATTERN" value="Interviews.Stripe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Interviews.Stripe" />
+      <option name="MAIN_CLASS_NAME" value="Interviews.Stripe.TestHTTPHeader" />
+      <option name="METHOD_NAME" value="testEmptyHeader" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHTTPHeader.testValidInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interviews.Stripe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Interviews.Stripe" />
+      <option name="MAIN_CLASS_NAME" value="Interviews.Stripe.TestHTTPHeader" />
+      <option name="METHOD_NAME" value="testValidInput" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ResourcesAccessLog" />
-        <item itemvalue="Application.FindMedianCourse" />
-        <item itemvalue="Application.ShuffleNumbers" />
-        <item itemvalue="Application.AllPermutationsII" />
-        <item itemvalue="Application.FactorCombinations" />
+        <item itemvalue="Application.HTTPHeader" />
+        <item itemvalue="Application.ServerRemovalPenalty" />
+        <item itemvalue="JUnit.TestHTTPHeader.testValidInput" />
+        <item itemvalue="JUnit.TestHTTPHeader" />
+        <item itemvalue="JUnit.TestHTTPHeader.testEmptyHeader" />
       </list>
     </recent_temporary>
   </component>
@@ -339,6 +358,10 @@
       <workItem from="1605215681137" duration="2729000" />
       <workItem from="1607047400891" duration="708000" />
       <workItem from="1631291937728" duration="26546000" />
+      <workItem from="1631553424713" duration="13750000" />
+      <workItem from="1631641182187" duration="2016000" />
+      <workItem from="1631670208767" duration="5189000" />
+      <workItem from="1631716151130" duration="7041000" />
     </task>
     <servers />
   </component>
@@ -819,6 +842,26 @@
           <url>file://$PROJECT_DIR$/src/Interviews/Robinhood/ResourcesAccessLog.java</url>
           <line>142</line>
           <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Interviews/Databricks/MergeIteratorII.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Interviews/Facebook/MinPushesOfBoxToTargetBFS.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Interviews/Facebook/MinPushesOfBoxToTargetDFS.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Interviews/Stripe/HTTPHeader.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="217" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DFS/AllSubsets.java</url>
